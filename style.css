@@ -1,5 +1,6 @@
 * {
     list-style: none;
+   
 }
 header {
     display: flex;
@@ -9,5 +10,6 @@ header {
 }
 ul {
     display: flex;
-    gap: 30px
+    gap: 30px;
 }
+
