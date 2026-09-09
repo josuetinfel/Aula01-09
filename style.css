@@ -1,13 +1,124 @@
 * {
     list-style: none;
+    font-family: sans-serif;
 }
+
+body{
+background-color: aqua;
+}
+.logo-nome{
+font-size: 200%;
+padding: 10px;
+border: 4px solid #000;
+}
+
 header {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 0px;
     border-bottom: 3px solid #ccc;
+    align-items: center;
 }
+
+.botoes-todos{
+background-color: aqua;
+}
+
+.projeto-1{
+font-size: 125%;
+padding: auto;
+text-transform: capitalize;
+text-decoration: none;
+color: #000000;
+border: 2px solid #000;
+}
+
+.habilidades-2{
+    font-size: 125%;
+    padding: auto;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000000;
+    border: 2px solid #000;
+}
+
+.contato-3{
+    font-size: 125%;
+    padding: auto;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000000;
+    border: 2px solid #000;
+
+}
+
 ul {
     display: flex;
     gap: 30px
+}
+
+section {
+    padding: 30px;
+}
+
+.pequeno-titulo{
+    color: rgb(0, 0, 0);
+    font-size: 125%;
+    line-height: 10%;
+    text-align:left;
+    font-size: large;
+    margin-bottom: 24px;
+}
+
+.texto-grande{
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.texto-embaixo{
+    font-family: sans-serif;
+    margin-bottom: 24px;
+}
+
+.link-botao-1 {
+    border: 1px solid #ccc;
+    background-color:#000;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+
+}
+
+.link-botao-2 {
+    border: 1px solid #000000;
+    background: color #fafafa;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px;
+}
+
+.section-numeros{
+    background-color: #0048ff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin: 100px 60px;
+}
+
+.numero{
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 0px;
+    margin-top: -20px;
+}
+
+.texto-numero{
+    margin-top: 0px;
+    margin-bottom: -20px;
 }
