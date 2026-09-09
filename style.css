@@ -1,6 +1,10 @@
 * {
     list-style: none;
+<<<<<<< HEAD
     font-family: sans-serif;
+=======
+   
+>>>>>>> 438ecd93237309d67930b2b6f2d37993367990c6
 }
 
 body{
@@ -54,9 +58,10 @@ border: 2px solid #000;
 
 ul {
     display: flex;
-    gap: 30px
+    gap: 30px;
 }
 
+<<<<<<< HEAD
 section {
     padding: 30px;
 }
@@ -122,3 +127,5 @@ section {
     margin-top: 0px;
     margin-bottom: -20px;
 }
+=======
+>>>>>>> 438ecd93237309d67930b2b6f2d37993367990c6
